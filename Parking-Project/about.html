@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- bootstrap link -->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+        />
+        <!-- Basic Style file -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- font awesome cdn -->
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+          integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+        />
+        <title>Parking-System</title>
+      </head>
+<body>
+
+    <!-- Navbar starts here -->
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container">
+          <!-- Brand stays on the left by default -->
+          <a class="navbar-brand nav-logo" href="#"> <span><i class="fa-solid fa-square-parking"></i></span> SMARTPark</a>
+  
+          <!-- Toggler button for small screens -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <!-- Collapsible navbar content -->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <!-- Add ms-auto to push menu items to the right -->
+            <ul class="navbar-nav nav-list">
+              <li class="nav-item">
+                <a class="nav-link nav-list-link" aria-current="page" href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-list-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-list-link" href="./howItWorks.html">How It Works</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle nav-list-link"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Person:
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./dashboard.html"> <span><i class="fa-solid fa-gauge-high"></i></span> Dashboard</a></li>
+                  <li><a class="dropdown-item" href="./profile.html"> <span><i class="fa-solid fa-user-edit"></i></span> Profile </a></li>
+                  <li>
+                    <a class="dropdown-item" href="#"> <span><i class="fa-solid fa-arrow-right-from-bracket"></i></span> Logout</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar Ends here -->
+
+    <!-- section about-intro starts -->
+    <section class="about-intro">
+        <div class="container intro-first-box">
+            <p class="about-intro-heading">About SMARTPark</p>
+            <p class="about-intro-details ">Revolutionizing parking management with smart technology</p>
+        </div>
+        <div class="container">
+            <div class="row g-4 justify-content-center">
+                <div class="main-box col-md-4">
+                    <div class="card">
+                        <i class="fa-solid fa-bullseye icon-color-2"></i>
+                      <p class="purchase-heading">Our Mission</p>
+                      <p class="real-time-detail">To eliminate parking hassles by providing
+                        intelligent, user-friendly parking solutions that save time, reduce
+                        stress and optimize urban mobility.
+                      </p>
+                    </div>
+                </div>
+
+                <div class="main-box col-md-4">
+                    <div class="card">
+                        <i class="fa-solid fa-eye icon-color-4"></i>
+                      <p class="purchase-heading">Our Vision</p>
+                      <p class="real-time-detail">To become the leading smart parking 
+                        plateforms that transforms how people find, reserve, and pay for parking 
+                        in small cities worldwide.
+                      </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- section about-intro ends -->
+
+     <!-- section makes-differ starts -->
+    <section class="makes-differ">
+        <div class="container">
+            <p class="makes-differ-heading">What Makes Us Different?</p>
+            <div class="makes-differ-container">
+                <div class="makes-differ-box-1">
+                    <span><i class="fa-solid fa-mobile-screen-button icon-color-5 makes-differ-icon"></i></span>
+                    <span class="makes-differ-box-1-heading">Mobile-First Design</span>
+                    <p class="makes-differ-1-details">Our responsive plateform works seamlessly
+                        accross all devices, ensuring you can manage parking on to go.
+                    </p>
+                </div>
+    
+                <div class="makes-differ-box-1">
+                    <span><i class="fa-solid fa-qrcode icon-color-4 makes-differ-icon"></i></span>
+                    <span class="makes-differ-box-1-heading">QR Code Technology</span>
+                    <p class="makes-differ-1-details">Contactless entry and exit with secure QR 
+                        code for quick and hygienic parking access.
+                    </p>
+                </div>
+    
+                <div class="makes-differ-box-1">
+                    <span><i class="fa-solid fa-chart-line icon-color-3 makes-differ-icon"></i></span>
+                    <span class="makes-differ-box-1-heading">Real-Time Updates</span>
+                    <p class="makes-differ-1-details">Live parking availability updates ensure 
+                        you always have the most current information.
+                    </p>
+                </div>
+    
+                <div class="makes-differ-box-1">
+                    <span><i class="fa-solid fa-wallet icon-color-1 makes-differ-icon"></i></span>
+                    <span class="makes-differ-box-1-heading">Flexible Payments</span>
+                    <p class="makes-differ-1-details">Multiple payment options including coins,
+                         e-walet and RFID cards for maximum convenience.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+     <!-- section makes-differ ends -->
+
+     <!-- section our commitment starts -->
+     <section class="commitment">
+        <div class="container commitment-box">
+            <p class="commitment-heading">Our Commitment</p>
+            <p class="commitment-detail-1">At SMARTPark we are commited to creating 
+                sustainable urban mobility solutions. By optimizing parking efficiency,
+                we have reduce trffic congestion, lower emissions and improve the overall 
+                quality of city life.
+            </p>
+            <p class="commitment-detail-2">We continuously innovate and improve our platform 
+                based on user feedback and emerging technologies to procive the best possible 
+                parking experience.
+            </p>
+        </div>
+     </section>
+     <!-- section our commitment ends -->
+
+     <!-- section experience-smart-parking starts  -->
+     <section class="experience-smart-parking">
+        <div class="container">
+            <p class="experience-smart-parking-heading">Ready to Experience Smart Parking?</p>
+        <div class="experience-section-button-area">
+            <button class="btn border-1 experience-section-button">
+                <span><i class="fa-solid fa-circle-info icon-color-5"></i></span
+                ><a href="./howItWorks.html">Learn How It Works</a>
+              </button>
+        </div>
+        </div>
+    </section>
+     <!-- section experience-smart-parking ends  -->
+
+     <!-- footer starts here -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-logo">SMARTPark</p>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
