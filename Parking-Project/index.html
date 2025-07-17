@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Basic Style file -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Parking-System</title>
+  </head>
+  <body>
+    <!-- Navbar starts here -->
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container">
+        <!-- Brand stays on the left by default -->
+        <a class="navbar-brand nav-logo" href="#"> <span><i class="fa-solid fa-square-parking"></i></span> SMARTPark</a>
+
+        <!-- Toggler button for small screens -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible navbar content -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <!-- Add ms-auto to push menu items to the right -->
+          <ul class="navbar-nav nav-list">
+            <li class="nav-item">
+              <a class="nav-link nav-list-link" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-list-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-list-link" href="./howItWorks.html">How It Works</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle nav-list-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Person:
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./dashboard.html"> <span><i class="fa-solid fa-gauge-high"></i></span> Dashboard</a></li>
+                <li><a class="dropdown-item" href="./profile.html"> <span><i class="fa-solid fa-user-edit"></i></span> Profile </a></li>
+                <li>
+                  <a class="dropdown-item" href="#"> <span><i class="fa-solid fa-arrow-right-from-bracket"></i></span> Logout</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar Ends here -->
+
+    <!-- Hero section starts here -->
+    <section class="hero-section">
+      <div class="container hero-section-container">
+        <p class="hero-section-heading">Smart Parking Made Simple</p>
+        <p class="hero-section-detail">
+          Find, reserve, and pay for parking spaces effortlessly  with our
+          intelligent parking management system
+        </p>
+        <div class="hero-button-box">
+          <button class="get-started-button btn btn-primary">
+            <span><i class="fa-solid fa-user-plus"></i></span
+            ><a href="#">Get Started</a>
+          </button>
+          <button class="login-button btn btn-primary">
+            <a href="#"
+              ><span><i class="fa-solid fa-right-to-bracket mr-3"></i></span>Login</a
+            >
+          </button>
+        </div>
+        <div class="car-div"><i class="fa-solid fa-car car-icon"></i></div>
+      </div>
+    </section>
+    <!-- Hero section ends here -->
+
+    <!-- Intro section starts -->
+    <section class="intro">
+        <div class="container intro-first-box">
+            <p class="intro-heading">Why Choose SmartPark?</p>
+            <p class="intro-details">Experience the future of parking with our advanced features</p>
+        </div>
+        <div class="container">
+            <div class="row g-4 justify-content-center">
+                <div class="main-box col-md-4">
+                    <div class="card">
+                        <i class="fa-solid fa-clock icon-color-2"></i>
+                      <p class="purchase-heading">Real-Time Tracking</p>
+                      <p class="real-time-detail">See available parking spaces in real-time and never waste time searching for a spot</p>
+                    </div>
+                </div>
+
+                <div class="main-box col-md-4">
+                    <div class="card">
+                      <i class="fa-solid fa-credit-card icon-color-4"></i></fa-solid>
+                      <p class="purchase-heading">Easy Payment</p>
+                      <p class="real-time-detail">Multiple payment options including coin, e-wallet, and RFID for your convenience</p>
+                    </div>
+                </div>
+
+                <div class="main-box col-md-4">
+                    <div class="card">
+                        <i class="fa-solid fa-shield-halved icon-color-3"></i>
+                      <p class="purchase-heading">Secure Parking</p>
+                      <p class="real-time-detail">QR code verification and automated entry/exist system ensure maximum security</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Intro section ends -->
+
+    <!-- section counter starts  -->
+    <section class="counter">
+      <div class="container">
+        <div class="counter-main-box">
+          <div class="counter-box-1">
+            <p class="counter-num num icon-color-5">20</p>
+            <p class="space">Parking Space</p>
+          </div>
+  
+          <div class="counter-box-1">
+            <p class="counter-num num icon-color-4">24/7</p>
+            <p class="space">Availability</p>
+          </div>
+
+          <div class="counter-box-1">
+            <p class="counter-num num icon-color-3">3</p>
+            <p class="space">Payment Methods</p>
+          </div>
+
+          <div class="counter-box-1">
+            <p class="counter-num num icon-color-1">2</p>
+            <p class="space">Floors</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section counter ends  -->
+
+    <!-- section get-ready starts -->
+    <section class="get-ready">
+        <div class="container">
+            <p class="get-ready-heading">Ready to Get Started</p>
+        <p class="get-ready-details">Join tousands of satisfied customers who have simplified their parking experience with SMARTPark.</p>
+        <div class="button-area">
+            <button class="btn border-1 button">
+                <span><i class="fa-solid fa-rocket"></i></span
+                ><a href="./reserveSpot.html">Reserve Your Spot Now</a>
+              </button>
+        </div>
+        </div>
+    </section>
+    <!-- section get-ready ends -->
+
+    <!-- footer starts here -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-logo">SMARTPark</p>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

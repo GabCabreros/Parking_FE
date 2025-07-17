@@ -1,0 +1,1147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Poppins:wght@500&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+/* **************************************** Navbar Styling ******************************** */
+.nav-list{
+    margin-left: 100px;
+}
+.nav-list-link{
+    margin-left: 30px;
+    color: rgb(235, 232, 232);
+    font-size: 16px;
+}
+.nav-list-link:hover{
+    color: white;
+}
+.nav-logo{
+    color: white;
+    font-weight: 700;
+    font-size: 26px;
+}
+.navbar .navbar-brand:hover {
+    color: rgb(235, 232, 232);
+}
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* *********************** Hero Section ********************************** */
+.hero-section{
+    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 90%);
+    /* height: calc(100vh - 50px);  */
+    height: auto;
+    /* padding: 50px; */
+    padding-bottom: 40px;
+}
+.hero-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-section-heading{
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+}
+.hero-section-detail{
+    color:rgb(235, 232, 232);
+    /* font-size: 18px; */
+    margin-top: 10px;
+    text-align: center;
+}
+.hero-button-box{
+    margin-top: 30px;
+}
+.hero-button-box .get-started-button a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+.hero-button-box .get-started-button{
+    background-color: white;
+    padding-top: 10px !important;
+}
+.hero-button-box .get-started-button:hover{
+    background-color: rgb(204, 202, 202);
+}
+.hero-button-box .get-started-button span{
+    color: black;
+    margin-right: 2px;
+}
+.hero-button-box .login-button a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+.hero-button-box .login-button{
+    background-color: transparent !important;
+    padding-top: 10px !important;
+    border: 1px solid white !important;
+    color: white !important;
+}
+.hero-button-box .login-button span{
+    color: white;
+    margin-right: 10px;
+}
+.car-icon{
+    margin-top: 40px;
+    font-size: 180px;
+    color: rgb(204, 202, 202);
+}
+
+/* ******************************* Intro styling ******************** */
+.intro{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.intro-heading{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+.intro-details{
+    text-align: center;
+    color: rgb(53, 52, 52);
+}
+.card {
+    border: none;
+    border-radius: 20px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+    transition: all 0.4s ease;
+    background: #fff;
+  }
+
+  .card i {
+    font-size: 48px;
+    margin-bottom: 1rem;
+  }
+
+  .purchase-heading {
+    font-size: 20px;
+    color: black;
+  }
+  .intro-first-box{
+    margin-bottom: 60px;
+  }
+.real-time-detail{
+    color: rgb(53, 52, 52);
+    margin-bottom: 60px;
+}
+.main-box{
+    margin-top: 30px;
+}
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.icon-color-1 { color: #00bcd4; }
+.icon-color-2 { color: #3f51b5; }
+.icon-color-3 { color: #ff9800; }
+.icon-color-4 { color: #4caf50; }
+.icon-color-5 { color: #1e88e5; }
+.icon-color-6 { color: #f44336; }
+.icon-color-7 { color: #9c27b0; }
+.icon-color-8 { color: #e91e63; }
+.icon-color-9 { color: #ffeb3b; }
+
+/* *************************************** Counter Styling ********************* */
+.counter{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.num{
+    font-size: 50px;
+    font-weight: 900;
+}
+.counter-main-box{
+    text-align: center;
+    padding: 20px;
+}
+.counter-box-1{
+    margin-bottom: 50px;
+}
+.space{
+    margin-top: -20px;
+}
+
+ 
+/* ************************************** Get-ready Styling ******************** */
+.get-ready{
+    background-color: #065ddf;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+.get-ready-heading{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.get-ready-details{
+    text-align: center;
+    color: white;
+}
+.button{
+    background-color: white !important;
+}
+.button-area{
+    text-align: center;
+    margin-top: 30px;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+    margin-left: 14px;
+    font-size: 18px;
+}
+.button:hover{
+    background-color: rgb(15, 15, 15);
+}
+.footer{
+    background-color: rgb(27, 26, 26);
+    color: white;
+    padding: 20px;
+    margin-top: 80px;
+}
+.footer-logo{
+    font-size: 24px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////// About PAGE STYLING ////////////////////////////////////// */
+.about-intro{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.about-intro-heading{
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+}
+.about-intro-details{
+    text-align: center;
+    color: rgb(53, 52, 52);
+    font-size: 20px;
+}
+
+/* ************************************** Makes-differ Styling *********************** */
+.makes-differ{
+    margin-top: 90px;
+    padding-bottom: 40px;
+}
+.makes-differ-heading{
+    font-size: 26px;
+    font-weight: 700;
+}
+.makes-differ-box-1{
+    max-width: 500px;
+    flex-basis: 42%;
+    margin-bottom: 14px;
+}
+.makes-differ-box-1 ul li{
+    list-style: none;
+}
+.makes-differ-icon{
+    font-size: 30px;
+    padding-top: 10px;
+}
+.makes-differ-box-1-heading{
+    font-size: 22px;
+    margin-left: 14px;
+}
+.makes-differ-1-details{
+    padding-left: 36px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.makes-differ-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* ************************************ Commitment styling ************************ */
+.commitment{
+    margin-top: 80px;
+    background-color: rgb(247, 244, 244);
+    padding: 20px;
+}
+.commitment-heading{
+    font-size: 26px;
+    font-weight: 700;
+}
+.commitment-box{
+    padding-left: 20px;
+    background-color: rgb(247, 244, 244);
+    padding: 20px;
+}
+
+
+/* ********************************* Experience smart parking ************************ */
+.experience-smart-parking{
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+.experience-smart-parking-heading{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+}
+.experience-section-button-area{
+    text-align: center;
+    margin-top: 14px;
+}
+.experience-section-button a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.experience-section-button{
+    border: 2px solid rgb(0, 110, 255);
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////// How It Works PAGE STYLING ////////////////////////////// */
+.steps-detail{
+    font-size: 18px;
+}
+
+/* **************************************** Facility Styling ********************** */
+.facility{
+    margin-top: 20px;
+}
+.facility-box-1{
+    max-width: 500px;
+    flex-basis: 42%;
+    margin-bottom: 14px;
+    /* box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2); */
+    padding: 12px;
+    /* border-radius: 20px; */
+    border-bottom: 1px solid rgb(53, 52, 52);
+}
+.facility-box-1 ul li{
+    list-style: none;
+}
+.facility-icon{
+    font-size: 30px;
+    padding-top: 10px;
+}
+.facility-box-1-heading{
+    font-size: 22px;
+    margin-left: 14px;
+}
+.facility-box-1-details{
+    /* padding-left: 36px; */
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(46, 45, 45);
+}
+.facility-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* ********************************** Parking-Facility Styling ************************* */
+.parking-facility{
+    margin-top: 50px;
+    /* padding-bottom: 30px; */
+    padding-top: 20px;
+    background-color: rgb(241, 239, 239);
+}
+.parking-facility-heading{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+.facility-card{
+    border: none;
+    border-radius: 20px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.4s ease;
+    cursor: pointer;
+  }
+  .parking-facility-icon{
+    font-size: 36px;
+  }
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////// Reserve Spot PAGE STYLING ////////////////////////////// */
+.join-section{
+    padding-top: 50px;
+    background-color: rgb(241, 239, 239);
+    height: auto;
+}
+.join-icon-div{
+    text-align: center;
+}
+.join-icon{
+    font-size: 42px;
+}
+.join-details{
+    text-align: center;
+    margin-top: -15px;
+    color: rgb(53, 52, 52);
+}
+.input-main-box{
+    max-width: 500px;
+    margin: 24px auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.check-box-wrapper{
+    display: flex;
+    align-items: center;
+}
+.check-box-details{
+    margin-top: 16px;
+    margin-left: 8px;
+    font-size: 14px;
+}
+.check-box-details a{
+    text-decoration: none;
+}
+.sign-in-option{
+    text-align: center;
+    margin-top: 14px;
+}
+.sign-in-option a{
+    text-decoration: none;
+}
+.input-main-box input{
+    background: transparent;
+    border: 2px solid grey;
+    padding: 12px;
+    border-radius: 14px;
+}
+.input-main-box input::placeholder{
+    color: rgb(29, 28, 28);
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////// Dashboard PAGE STYLING ////////////////////////////// */
+.available-places{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.account-member-name{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+.places-details{
+    text-align: center;
+    color: rgb(53, 52, 52);
+}
+.colored-box-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    background-color: rgb(14, 124, 14);
+    flex-basis: 42%;
+    border-radius: 14px;
+}
+.colored-right-content i{
+    font-size: 40px;
+    color: rgb(190, 188, 188);
+}
+.colored-left-content p{
+    color: white;
+}
+.colored-left-content  .place-num{
+    font-size: 30px;
+}
+.colored-left-content-detail{
+    margin-top: -10px;
+}
+.colored-box-2{
+    background-color: rgb(160, 2, 2);
+}
+.colored-box-3{
+    background-color: gold;
+}
+.colored-box-3 i{
+    color: white;
+}
+.colored-box-4 {
+    background-color: #00bcd4;
+}
+.colored-box-4 i{
+    color: white;
+}
+.colored-boxes-container{
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+/* ******************************* Parking Layout Styling ************************* */
+.parking-layout{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.parking-layout-heading-div{
+    border-bottom: 2px solid gray;
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.map-icon{
+    margin-right: 10px;
+}
+.parking-layout-content{
+    font-size: 20px;
+    margin-top: 12px;
+}
+.refresh-button{
+    border: 2px solid rgb(0, 174, 255);
+    color: rgb(0, 174, 255);
+    padding: 6px;
+    border-radius: 12px;
+    background: transparent;
+}
+.refresh-icon{
+    margin-right: 6px;
+}
+.floor-2-div{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.floor-2-div a{
+    text-decoration: none;
+    color: black;
+}
+.floor-heading{
+    font-size: 24px;
+    color: rgb(43, 42, 42);
+    text-align: center;
+}
+.building-icon{
+    color: rgb(43, 42, 42);
+    font-size: 20px;
+    margin-right: 10px;
+}
+.section-a-heading{
+    text-align: center;
+    color: rgb(71, 70, 70);
+    font-size: 18px;
+}
+.section-a-box-1{
+    width: 110px;
+    height: 100px;
+    border: 2px solid green;
+    background-color: #def1f3;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+.section-a-box-1 i{
+    color: green;
+    font-size: 18px;
+    margin-top: 14px;
+}
+.section-a-box-1 .civic{
+    color: red;
+}
+.section-a-places-numbers{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.section-b{
+    margin-top: 50px;
+}
+.floor-1-div{
+    margin-top: 50px;
+}
+.guidance{
+    border-top: 2px solid grey;
+    display: flex;
+    align-items: center;
+    /* max-width: 400px; */
+    /* margin: 40px auto; */
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+.guidance-available,
+.guidance-occupied,
+.guidance-reserved{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.guidance-available i{
+    font-size: 20px;
+    color: green;
+}
+.guidance-occupied i{
+    font-size: 20px;
+    color: red;
+}
+.guidance-reserved i{
+    font-size: 20px;
+    color: gold;
+}
+
+/* ***************************** Your Reservation Styling *************************** */
+.your-reserve-heading{
+    border-bottom: 2px solid gray;
+    text-align: center;
+    font-size: 26px;
+}
+.reservation-heading{
+    color: rgb(34, 33, 33);
+    font-size: 20px;
+}
+
+/* **************************************** Find Quick Styling ****************************** */
+.find-quick{
+    margin-top: 30px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+.find-quick-heading{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(34, 33, 33);
+    border-bottom: 2px solid grey;
+}
+.find-quick-button-box{
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.find-quick-button-box button{
+    padding: 6px 40px;
+}
+.find-quick-button-box .find{
+    background-color: #026abe;
+    border: 2px solid #026abe;
+    color: white;
+    border-radius: 8px;
+    font-weight: 400;
+}
+.find-quick-button-box .find a{
+    text-decoration: none;
+    color: white;
+}
+.find-quick-button-box .update-profile{
+    border: 2px solid grey;
+    color: grey;
+    border-radius: 8px;
+    background: transparent;
+}
+.find-quick-button-box .update-profile a{
+    text-decoration: none;
+    color: gray;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////Resrve Slot Details PAGE STYLING ////////////////////////////// */
+.reserve-slot-detail-section{
+    padding-top: 30px;
+}
+.main-heading{
+    text-align: center;
+}
+.main-heading a{
+    text-decoration: none;
+}
+.reserve-slot-heading{
+    font-size: 26px;
+    text-align: center;
+}
+.reserve-slot-detail{
+    text-align: center;
+    color: rgb(65, 64, 64);
+    margin-top: -10px;
+}
+.detail-box-heading{
+    text-align: center;
+    border-bottom: 2px solid grey;
+    font-size: 20px;
+}
+.time-and-duration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.reserve-slot-detail-box{
+    margin-top: 50px;
+}
+.time{
+    font-size: 22px;
+}
+.duration{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.time-input{
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid grey;
+    margin-top: 12px;
+}
+.time-detail{
+    font-size: 14px;
+    color: rgb(85, 84, 84);
+    margin-top: 10px;
+}
+select{
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid grey;
+    margin-top: 10px;
+}
+/* *********************************** Payment-Method Styling ********************** */
+.payment-method-section{
+    margin-top: 20px;
+}
+.payment-method-heading{
+    text-align: center;
+    font-size: 18px;
+}
+
+/* ******************************* Slot-info Styling *************************** */
+.slot-info{
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.slot-info-heading{
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+.slot-info-icon{
+    font-size: 60px;
+    color: green;
+    text-align: center;
+}
+.slot-info-num{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.slot-info-box-1{
+    text-align: center;
+}
+ /* *************************************** Feature Styling ******************** */
+ .feature{
+    margin-top: 50px;
+ }
+ .feature-heading{
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 2px solid gray;
+ }
+ .feature-inner-box{
+    text-align: center;
+    margin-top: 20px;
+ }
+
+ /* ////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////Profile PAGE STYLING ////////////////////////////// */
+.profile-section{
+    padding-top: 30px;
+}
+.profile-heading{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+}
+.profile-detail{
+    text-align: center;
+    color: rgb(83, 82, 82);
+    margin-top: -10px;
+}
+.profile-info-heading{
+    font-size: 22px;
+    text-align: center;
+    border-bottom: 2px solid grey;
+    margin-top: 40px;
+}
+
+/* ****************************** Addition-info Styling ****************** */
+.addition-info-heading{
+    font-size: 22px;
+    text-align: center;
+}
+.optional-text{
+    font-size: 14px;
+    color: rgb(94, 92, 92);
+    margin-top: -20px;
+}
+.main-input-box input::placeholder{
+    color: rgb(105, 104, 104);
+}
+.loss-quick{
+    margin-top: -40px;
+}
+
+/* ******************************** Profile summary Styling ********************** */
+.profile-summary{
+    padding-top: 10px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+.profile-summary-heading{
+    text-align: center;
+    font-size: 20px;
+}
+.profile-summary-icon{
+    text-align: center;
+}
+.profile-summary-icon i{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.person-name{
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+}
+.person-email{
+    text-align: center;
+    color: rgb(77, 74, 74);
+    margin-top: -20px;
+}
+.profile-inner-box{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+.account-status{
+    margin-top: -20px;
+}
+.person-skill-box{
+    border-right: 1px solid rgb(180, 178, 178);
+    padding: 30px;
+}
+
+/* ************************************* Account Actions Styling *************** */
+.account-action-heading{
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 2px solid gray;
+}
+.inner-quick{
+    margin-top: 0px;
+}
+.find-quick-button-box .first-button{
+    border: 2px solid gold;
+    color: white;
+    border-radius: 8px;
+    font-weight: 400;
+}
+.find-quick-button-box .first-button a{
+    text-decoration: none;
+    color: gold;
+    background: transparent;
+}
+.find-quick-button-box .second-button{
+    border: 2px solid rgb(0, 162, 255);
+    color: grey;
+    border-radius: 8px;
+    background: transparent;
+}
+.find-quick-button-box .second-button a{
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+    background: transparent;
+}
+.find-quick-button-box .third-button{
+    border: 2px solid rgb(165, 42, 79);
+    color: grey;
+    border-radius: 8px;
+    background: transparent;
+}
+.find-quick-button-box .third-button a{
+    text-decoration: none;
+    color: rgb(165, 42, 79);
+    background: transparent;
+}
+.advanced-info{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 14px;
+    color: rgb(78, 76, 76);
+}
+.account-action-wrapper{
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    padding-bottom: 16px;
+}
+
+/* ***************************************** Security Styling ********************** */
+.security{
+    padding-top: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.security-heading{
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 2px solid grey;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////Confirm Reservation PAGE STYLING ////////////////////////////// */
+.mainer{
+    text-align: center;
+}
+.reservation-first-section{
+    padding-top: 30px;
+}
+.reservation-first-section-icon{
+    font-size: 70px;
+}
+.reservation-first-section-heading{
+    font-size: 30px;
+    font-weight: 600;
+}
+.reservation-first-section-detail{
+    font-size: 18px;
+    color: rgb(87, 83, 83);
+}
+.reservation-detail-heading{
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 2px solid grey;
+    margin-top: 20px;
+}
+.reservation-details{
+    padding: 14px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 14px;
+    margin-top: 56px;
+}
+.reservation-inner-box{
+    text-align: center;
+}
+.weight{
+    font-weight: 600;
+    font-size: 18px;
+}
+.detail{
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.id-num{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+/* ************************************ QRcode Styling ***************************** */
+.qr-code{
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.qr-code-box{
+    max-width: 405px;
+    margin: auto;
+    text-align: center;
+    border-radius: 12px;
+    padding-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.qr-heading{
+    /* border: 2px solid brown; */
+    padding: 10px;
+    background-color: #026abe;
+    color: white;
+    border-radius: 12px;
+}
+.qr-code-details{
+    font-size: 14px;
+    color: rgb(90, 86, 86);
+    margin-top: 16px;
+}
+.qr-code-button{
+    border: 2px solid #026abe;
+    padding: 8px;
+    color: #026abe;
+    border-radius: 12px;
+}
+.qr-code-button a{
+    text-decoration: none;
+}
+
+/* ********************************** Important Info Styling ********************** */
+.important-info{
+    margin-top: 50px;
+    padding-top: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+.important-info-heading{
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 2px solid grey;
+}
+
+/* *************************************** Instructions Styling ********************** */
+.entry-process{
+    color: #026abe;
+    font-size: 20px;
+    font-weight: 700;
+}
+.instructions{
+    border-bottom: none;
+}
+.exit-process{
+    color: gold;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:500px){
+    .makes-differ-container{
+        flex-direction: column;
+    }
+    .facility-container{
+        flex-direction: column;
+    }
+    .colored-boxes-container{
+        flex-direction: column;
+    }
+    .parking-layout-heading-div{
+        flex-direction: column;
+    }
+    .floor-heading{
+        text-align: left;
+    }
+    .your-reserve-heading{
+        text-align: left;
+        font-size: 22px;
+    }
+    .find-quick-heading{
+        text-align: left;
+    }
+    .find-quick-button-box{
+        flex-direction: column;
+    }
+    .main-heading{
+        text-align: left;
+    }
+    .reserve-slot-heading{
+        text-align: left;
+    }
+    .reserve-slot-detail{
+        text-align: left;
+    }
+    .detail-box-heading{
+        text-align: left;
+    }
+    .time-and-duration{
+        flex-direction: column;
+    }
+    .payment-method-heading{
+        text-align: left;
+    }
+    .slot-info-heading{
+        text-align: left;
+    }
+    .slot-info-box-1{
+        text-align: left;
+    }
+    .feature-heading{
+        text-align: left;
+    }
+    .feature-inner-box{
+        text-align: left;
+     }
+     .profile-heading{
+        text-align: left;
+     }
+     .profile-info-heading{
+        text-align: left;
+     }
+     .input-field-area{
+        border-bottom: 2px solid grey;
+    }
+    .addition-info-heading{
+        text-align: left;
+    }
+    .profile-summary-heading{
+        text-align: left;
+    }
+    .security-heading{
+        text-align: left;
+    }
+    .account-action-heading{
+        text-align: left;
+    }
+    .reservation-detail-heading{
+        text-align: left;
+    }
+    .reservation-inner-box{
+        text-align: left;
+    }
+    .id-num{
+        margin-left: 40px;
+    }
+    .important-info-heading{
+        text-align: left;
+    }
+}
+
